@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Music Player</title>
+    <link rel="stylesheet" href="task-2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MusicPlayer</div>
+        <input type="text" class="search-bar" placeholder="Search...">
+        <div class="user-profile">
+            <img src="user-icon.png" alt="User Profile">
+        </div>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li>Home</li>
+                <li>Library</li>
+                <li>Playlists</li>
+                <li>Categories</li>
+            </ul>
+            <div class="playlists">
+                <h3>Your Playlists</h3>
+                <ul>
+                    <li>Playlist 1</li>
+                    <li>Playlist 2</li>
+                    <li>Playlist 3</li>
+                </ul>
+            </div>
+        </nav>
+        <main class="main-content">
+            <div class="now-playing">
+                <img src="devara.jpeg"" alt="Album Art">
+                <div class="song-info">
+                    <h2>Song Title</h2>
+                    <p>Artist Name</p>
+                </div>
+            </div>
+            <div class="music-controls">
+                <button id="prev">Prev</button>
+                <button id="play-pause">Play</button>
+                <button id="next">Next</button>
+                <input type="range" id="volume-control" min="0" max="100">
+                <input type="range" id="progress-bar" min="0" max="100">
+            </div>
+            <div class="playlist">
+                <h3>Current Playlist</h3>
+                <ul>
+                    <li>Song 1</li>
+                    <li>Song 2</li>
+                    <li>Song 3</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <button id="repeat">Repeat</button>
+        <button id="shuffle">Shuffle</button>
+    </footer>
+    <script src="task-2.css"></script>
+</body>
+</html>
