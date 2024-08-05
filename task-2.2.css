@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4081;
+}
+
+.search-bar {
+    width: 50%;
+    padding: 8px;
+    background-color: #444;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.search-bar::placeholder {
+    color: #aaa;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff4081;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-right: 1px solid #333;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.sidebar ul li:hover {
+    color: #ff4081;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+.posts {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #ff4081;
+}
+
+.post-header p {
+    margin: 0;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.post-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-footer button {
+    background-color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.post-footer button:hover {
+    background-color: #ff1c6b;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+footer button {
+    background-color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer button:hover {
+    background-color: #ff1c6b;
+}
